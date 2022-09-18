@@ -1,0 +1,372 @@
+body{
+    min-width: 1200px;
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+
+header {
+    background-image: url(images/food.jpg);
+    background-size: cover;
+    height: 500px;
+}
+.headerInner {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top: 20px;
+    
+}    
+
+.logoArea {
+    color: white;
+    margin-left: 40px;
+    
+}
+
+.header-menu{
+    display: flex;
+    margin-right:40px;
+    
+}
+
+.header-menu li{
+    margin-left: 30px;
+}
+.nav{
+    color: white;
+    text-decoration: none;
+}
+.headerImage{
+    margin-top: 70px;
+    display: flex;
+    justify-content:center;
+}
+
+a {
+    display: block;
+}
+header form{
+    background-color: rgba(255,225,225,0.7);
+    padding:20px 0;
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 10px;
+    
+}
+header form label{
+    font-weight: bold;
+    font-size:14px;
+    margin-right: 6px;
+}
+header form input{
+    height: 36px;
+}
+header form input[type=text]{
+    width: 250px;
+}
+header form input[type=submit]{
+    border:solid 1px black;
+    background-color: red;
+    color: white;
+    width: 80px;
+    font-size: 18px;
+    background-image: url(images/icon07.png);
+    background-repeat: no-repeat;
+    background-position: 8px, 50%;
+    padding-left: 30px;
+}
+.contents{
+    width: 1200px;
+    padding: 0px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+    
+}
+
+
+.main-contents{
+    width: 800px;
+    margin-right: 50px;
+}
+.main-contents > section{
+    display: flex;
+    margin-bottom: 50px;
+}
+.iconArea{
+    width: 50px;
+}
+.detailArea{
+    flex:1;
+}
+.detailArea h2{
+    border-bottom:solid 1px red;
+    font-size:24px;
+    line-height: 42px;
+    margin-bottom: 10px;
+}
+
+.detailArea h2 span{
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: 20px;
+}
+.recommendList{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.recommendList li{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.ken{
+    text-decoration: none;
+    border:solid 1px #80808052 ;
+    font-size: 12px;
+    display: block;
+    width: 52px;
+    text-align: center;
+    padding: 4px 0;
+}
+
+.spot{
+    font-size: 12px;
+    text-decoration: none;
+}
+.spot:before{
+    content: ">";
+    color: orange;
+}
+.genreList{
+    display: flex;
+    justify-content:space-between;
+}
+
+.center{
+    text-align: center;
+}
+
+.borderLine{
+    border:solid 1px #80808052;
+    text-decoration: none;
+}
+
+.lighter{
+    display: flex;
+}
+
+.display-Flex{
+    display: flex;
+}
+
+.sobaArea{
+    border:solid 1px #80808052;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.kebabuArea{
+    border:solid 1px #80808052;
+    text-align: center;
+}
+
+.soba-kebabu{
+    padding: 10px;
+    background-color: #faf9f9;
+    font-size: 12px;
+}
+.soba-kebabu p{
+    text-align: left;
+}
+.soba-kebabu h2{
+    font-size: 18px;
+    border-bottom: none;
+}
+
+.soba-pic{
+    margin-right: auto;
+    margin-left: auto;
+}
+.none{
+    text-align: center;
+    text-decoration: none;
+}
+
+.hotList{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    height: 100px;
+   
+}
+.hotList li{
+    margin-bottom: 10px;
+}
+.obsession{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.obsession li{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.obsession li a{
+    border:solid 1px #80808052;
+    display:block;
+    padding: 4px 10px;
+    text-decoration:none;
+    font-size: 12px;
+    
+}
+.userbox{
+    border:solid 1px #80808052 ;
+    margin-right:20px;
+    width: 50%;
+    padding: 10px;
+    background-color: #faf9f9;
+}
+
+.sweetsbox{
+    border:solid 1px #80808052 ;
+    width: 50%;
+    padding: 10px;
+    background-color: #faf9f9;
+}
+.userbox-name{
+    background-image: url(images/icon09.png);
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 70px;
+    border-bottom: solid 2px #80808033;
+}
+.usertext p{
+    font-size: 12px;
+}
+.usertext{
+    margin-bottom: 16px;
+}
+.User h3{
+    margin: 16px 0;
+}
+.userbox-name p:first-child{
+    font-weight: bold;
+}
+.userbox-name p:last-child{
+    font-size: 12px;
+}
+.User{
+    display: flex;
+}
+.User .display-Flex img:last-child{
+    margin-left: 10px;
+}
+.right-bar{
+    width: 270px;
+}
+
+.userArea{
+     border:solid 1px #80808052 ;
+     background-color: #fffcf2;
+     padding: 20px;
+}
+.userArea-inner{
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+.nameArea{
+    display: flex;
+    align-items:center;
+    padding-bottom: 10px;
+}
+.nameArea-text{
+    margin-left: 10px;
+}
+.nameArea-text p:first-child{
+    font-weight: bold;
+}
+.nameArea-text p:last-child{
+    font-size: 12px;
+}
+
+.pointArea{
+    display: flex;
+    border-top:solid 1px #80808033;
+    justify-content:space-between;
+    align-items:center;
+    font-size: 12px;
+    padding: 10px 0;
+}
+.pointArea-icon{
+    display:flex;
+    align-items:center;
+    
+}
+.pointArea-icon img{
+    margin-right: 10px;
+}
+.rankArea{
+    display: flex;
+}
+.abbox{
+    display: flex;
+    flex-direction:column;
+}
+.bnr01{
+    margin-top: 20px;
+    }
+
+.bnr02{
+    margin-top: 20px;
+}    
+
+
+footer{
+    border-top: solid 2px #80808033 ;
+    text-align: center;
+}
+
+.contents{
+    display: flex;
+    background-color: white;
+}
+.footerArea{
+    text-align:center;
+}
+.footer-menu{
+    display: flex;
+    justify-content:center;
+    width: 1200px;
+    margin: 0 auto;
+    gap:40px;
+    padding: 40px 0;
+    
+}
+.Footer{
+    text-decoration: none;
+    
+}
+
+.copy-writer{
+    background-color: #dcd5d5;
+    padding: 20px 0;
+    text-align: center;
+}
+
+small{
+    font-size: smaller;
+    width: 1200px;
+    margin: 0 auto;
+    display: block;
+}
